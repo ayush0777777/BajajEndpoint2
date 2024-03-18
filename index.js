@@ -21,7 +21,7 @@ const template = {
   }
 
 app.get("/bfhl", (req, res) => {
-  res.send("Welcome to BFHL endpoint");
+  res.send(res.body());
 });
 
 app.post('/bfhl', (req, res)=>{
